@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.sajagjain.bikepool.OTPWindow">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/half_visible_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A One time password has been sent to\n 88898xxxxx via SMS"
+            android:gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <com.github.irvingryan.VerifyCodeView
+            android:id="@+id/verification_code_text_view"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:vcLineStyle="noLine"
+            app:vcLineWidth="3px"
+            app:vcTextColor="#ffffff"
+            app:vcTextSize="6" />
+        <TextView
+            android:id="@+id/updateboxforotpverification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/verify_button"
+            android:layout_width="250dp"
+            android:background="@drawable/rounded_border"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:text="Verify" />
+
+        <TextView
+            android:id="@+id/re_send_otp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESEND OTP"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/re_enter_mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REENTER MOBILE NUMBER"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</FrameLayout>

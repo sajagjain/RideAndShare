@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "637155761867",
+    "firebase_url": "https://bike-pool-1519885189743.firebaseio.com",
+    "project_id": "bike-pool-1519885189743",
+    "storage_bucket": "bike-pool-1519885189743.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637155761867:android:54f0afd9bf126371",
+        "android_client_info": {
+          "package_name": "com.example.sajagjain.bikepool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637155761867-n449lrj19oac1m98r1qs1lhbealc6co5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sajagjain.bikepool",
+            "certificate_hash": "1659d0147e115db72846089b3ac2ff6066ef9412"
+          }
+        },
+        {
+          "client_id": "637155761867-sis6ik9bdu2evrig805nrgavq34oolom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8puRj9j_ZhIuH_1TOke_IfkjdvUblPuM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637155761867-sis6ik9bdu2evrig805nrgavq34oolom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
